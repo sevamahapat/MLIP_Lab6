@@ -17,7 +17,7 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 source /home/team18/miniconda3/etc/profile.d/conda.sh
-		conda activate envs/mlip
+		conda activate /home/team18/miniconda3/envs/mlip
 
                 # TODO Complete the command to run pytest
                 pytest
